@@ -1,1 +1,7 @@
-theme: jekyll-theme-hacker
+name: PHP.Docs | မြန်မာ
+description: 
+encoding: UTF-8 
+locale: my_MM 
+exclude:
+ - Gemfile
+ - Gemfile.lock
