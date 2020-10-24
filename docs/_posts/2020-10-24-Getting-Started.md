@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: စတင်မိတ်ဆက်ခြင်း
-category: [docs,intro]
+category: [docs]
 ---
 
 
@@ -44,6 +44,6 @@ category: [docs,intro]
 ### `php` ဖြင့် မည်သည်တို့ကို ဖန်တီးနိုင်ပါသနည်း။
 
 <!-- Reference -->
-[0]: ./refs/open-source.md
-[1]: ./refs/web.md
-[2]: ./resf/html.md
+[0]: ../refs/open-source.md
+[1]: ../refs/web.md
+[2]: ../resf/html.md
