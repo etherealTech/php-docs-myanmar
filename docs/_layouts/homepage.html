@@ -7,7 +7,7 @@
   <meta charset="{{ site.encoding }}">
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"> 
-  <title>{{ page.title }} - {{ site.name }}</title>
+  <title>{{ site.name }}</title>
   <link rel="stylesheet" href="https://cdn.etherio.net/normalize/normalize.css">
   <link rel="stylesheet" href="https://cdn.etherio.net/milligram/milligram.css"> 
 </head>
@@ -15,7 +15,7 @@
 <body>
   <nav>
     <center>
-      <a href="/phpdocs/">PHP.Docs</a> 
+      <a href="{{ site.baseURL }}">{{ site.name }}</a> 
     </center>
   </nav>
   
@@ -32,7 +32,7 @@
     <ul>
     {% for post in site.posts %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ site.baseURL )}{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endfor %}
     </ul>
