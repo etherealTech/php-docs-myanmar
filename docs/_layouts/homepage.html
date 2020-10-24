@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+
+<head>
+
+<head>
+  <meta charset="{{ site.encoding }}">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"> 
+  <title>{{ page.title }} - {{ site.name }}</title>
+  <link rel="stylesheet" href="https://cdn.etherio.net/normalize/normalize.css">
+  <link rel="stylesheet" href="https://cdn.etherio.net/milligram/milligram.css"> 
+</head>
+
+<body>
+  <nav>
+    <center>
+      <a href="/phpdocs/">PHP.Docs</a> 
+    </center>
+  </nav>
+  
+  <hr>
+
+  <div class="container">
+    {{ page.content }}
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <h4>Blog Posts</h4>
+    <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <hr>
+
+  <div class="clearfix"> 
+    <div class="container">
+      <p>Copyright &copy; 2020 <a href="/phpdocs/">PHP.Docs</a> by <a href="https://etherealtech.github.io/" target="_blank">Ethereal Tech</a></p>
+    </div>
+  </div>
+
+</body>
+
+</html>
