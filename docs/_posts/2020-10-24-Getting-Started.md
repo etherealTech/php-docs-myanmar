@@ -44,6 +44,6 @@ category: [docs]
 ### `php` ဖြင့် မည်သည်တို့ကို ဖန်တီးနိုင်ပါသနည်း။
 
 <!-- Reference -->
-[0]: ../refs/open-source.md
-[1]: ../refs/web.md
-[2]: ../resf/html.md
+[0]: ../../../../refs/2020/10/24/open-source.md
+[1]: ../../../../refs/2020/10/24/web.md
+[2]: ../../../../refs/2020/10/24/html.md
