@@ -2,7 +2,7 @@ name: PHP.Docs | မြန်မာ
 description: 
 encoding: UTF-8 
 locale: my_MM 
-baseURL: https://etherealtech.github.io/phpdocs/
+baseURL: https://etherealtech.github.io/phpdocs
 exclude:
  - Gemfile
  - Gemfile.lock
