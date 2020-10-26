@@ -1,7 +1,6 @@
 ---
-layout: blog
+layout: homepage
 title: Open Source
-category: [refs]
 ---
 
 # Open Source
