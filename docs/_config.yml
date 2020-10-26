@@ -1,8 +1,10 @@
-name: PHP.Docs | မြန်မာ
+name: PHP.Docs
 description: 
 encoding: UTF-8 
 locale: my_MM 
 baseURL: https://etherealtech.github.io/phpdocs
+kramdown:
+  html_to_native: true
 exclude:
  - Gemfile
  - Gemfile.lock
