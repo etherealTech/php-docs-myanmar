@@ -1,7 +1,6 @@
 ---
-layout: blog
+layout: homepage
 title: Hypertext Markup Language (HTML)
-category: [ref]
 ---
 
 # Hypertext Markup Language (HTML)
